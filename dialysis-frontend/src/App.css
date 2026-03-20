@@ -1,0 +1,119 @@
+body {
+  margin: 0;
+  font-family: "Inter", "Segoe UI", sans-serif;
+  background: linear-gradient(135deg, #eef2ff, #f8fafc);
+}
+
+/* Container */
+.container {
+  max-width: 950px;
+  margin: 50px auto;
+  padding: 20px;
+}
+
+/* Header */
+.title {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 40px;
+  color: #1e293b;
+}
+
+/* Card */
+.card {
+  background: white;
+  padding: 22px;
+  border-radius: 14px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+  margin-bottom: 25px;
+  transition: 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+}
+
+/* Form */
+.form {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.form input {
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid #e2e8f0;
+  flex: 1;
+  min-width: 130px;
+  font-size: 14px;
+  transition: 0.2s;
+}
+
+.form input:focus {
+  border-color: #2563eb;
+  outline: none;
+}
+
+/* Button */
+button {
+  background: linear-gradient(135deg, #2563eb, #3b82f6);
+  color: white;
+  border: none;
+  padding: 12px 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.2s;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+/* Session Card */
+.session {
+  padding: 18px;
+  border-radius: 12px;
+  background: #f9fafb;
+  border-left: 6px solid #2563eb;
+  margin-bottom: 15px;
+  transition: 0.2s;
+}
+
+.session:hover {
+  background: #f1f5f9;
+}
+
+/* Labels */
+.session p {
+  margin: 6px 0;
+  font-size: 15px;
+}
+
+/* Highlight numbers */
+.value {
+  font-weight: bold;
+  color: #1e293b;
+}
+
+/* Anomaly Box */
+.anomaly-box {
+  margin-top: 12px;
+  padding: 10px;
+  border-radius: 8px;
+  background: #fee2e2;
+  border-left: 4px solid red;
+}
+
+.anomaly-title {
+  font-weight: bold;
+  color: red;
+  margin-bottom: 5px;
+}
+
+.anomaly-box ul {
+  margin: 0;
+  padding-left: 18px;
+}
